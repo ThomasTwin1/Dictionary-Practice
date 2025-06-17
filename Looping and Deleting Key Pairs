@@ -1,0 +1,26 @@
+# More Dictionary Practice
+favorite_number = {
+    'Riley': 0,
+    'CPT K': 7
+}
+
+# Delete Riley from dictionary
+del favorite_number['Riley']
+print(f"CPT K favorite number is {favorite_number['CPT K']}")
+print(favorite_number)
+
+programming_terms =  {
+    'loop': 'to go through values of each variable',
+    'variable': 'container for value',
+    'value': 'information about the variable'
+}
+
+user_0 = {
+    'username': 'LeeRoy',
+    'first_name': 'Lee',
+    'last_name': 'Roy'
+}
+
+for key, value in user_0.items():
+    print("\nKey: " + key)
+    print("Value: " + value)
