@@ -1,0 +1,128 @@
+
+### 🧠 **Python Dictionary Quiz**
+
+#### **1. What is the correct way to create a dictionary?**
+
+A. `dict = [1: 'one', 2: 'two']`
+B. `dict = {1: 'one', 2: 'two'}`
+C. `dict = (1: 'one', 2: 'two')`
+D. `dict = 'one': 1, 'two': 2`
+
+✅ **Answer:** B
+
+---
+
+#### **2. What will this code output?**
+
+```python
+my_dict = {'a': 1, 'b': 2}
+print(my_dict['b'])
+```
+
+A. `'b'`
+B. `2`
+C. `None`
+D. `KeyError`
+
+✅ **Answer:** B
+
+---
+
+#### **3. How do you add a new key-value pair to a dictionary?**
+
+A. `dict.add('c', 3)`
+B. `dict.append({'c': 3})`
+C. `dict['c'] = 3`
+D. `dict.update(c:3)`
+
+✅ **Answer:** C
+
+---
+
+#### **4. What does `my_dict.get('x')` return if `'x'` is not a key?**
+
+A. Raises KeyError
+B. `None`
+C. `0`
+D. `'x'`
+
+✅ **Answer:** B
+
+---
+
+#### **5. Which method returns a list of all keys in a dictionary?**
+
+A. `my_dict.all()`
+B. `my_dict.keys()`
+C. `my_dict.getkeys()`
+D. `my_dict.items()`
+
+✅ **Answer:** B
+
+---
+
+#### **6. What will this output?**
+
+```python
+d = {'x': 5}
+d['x'] += 1
+print(d['x'])
+```
+
+A. 4
+B. 5
+C. 6
+D. Error
+
+✅ **Answer:** C
+
+---
+
+#### **7. What is the result of this code?**
+
+```python
+d = {'a': 1, 'b': 2}
+print(len(d))
+```
+
+A. 2
+B. 3
+C. 1
+D. Error
+
+✅ **Answer:** A
+
+---
+
+#### **8. What does `dict.items()` return?**
+
+A. Only keys
+B. Only values
+C. List of tuples (key, value)
+D. Dictionary
+
+✅ **Answer:** C
+
+---
+
+#### **9. How can you safely remove a key from a dictionary?**
+
+A. `del dict('key')`
+B. `dict.remove('key')`
+C. `dict.pop('key', None)`
+D. `dict.delete('key')`
+
+✅ **Answer:** C
+
+---
+
+#### **10. What is a key requirement for dictionary keys in Python?**
+
+A. Must be integers
+B. Must be strings
+C. Must be unique and immutable
+D. Can be lists or other dictionaries
+
+✅ **Answer:** C
+
+
